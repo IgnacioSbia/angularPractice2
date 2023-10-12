@@ -1,0 +1,19 @@
+.mainTitleSection{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.mainSection{
+    text-align: center;
+}
+.buttonAccept{
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 64px;
+    height: 36px;
+}
+.buttonAccept:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
