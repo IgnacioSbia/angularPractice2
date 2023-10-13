@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class MainPageComponent {
 
+  buttonstate: boolean = false;
+  accepted = 'ACCEPTED';
+  showMessage(){
+    if(this.buttonstate == !true){
+      console.log('Ive been clicked')
+    this.buttonstate = true
+    }else{
+      this.buttonstate = false
+    }
+    
+  } 
 }

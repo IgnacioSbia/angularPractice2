@@ -15,5 +15,8 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem voluptas commodi corrupti nam totam ipsa at veniam porro minus enim, debitis, vero cum sunt reiciendis labore sint libero error.</p>
         </div>
     </section>
-    <button ngClass="buttonAccept">Accept</button>
+    <button ngClass="buttonAccept" (click)="showMessage()">Accept</button>
+    <button ngClass="buttonDecline">Decline</button>
+    <h1 *ngIf="buttonstate">Accepted</h1>
+    <h1 *ngIf="!buttonstate">Declined</h1>
 </main>
